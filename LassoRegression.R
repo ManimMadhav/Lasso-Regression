@@ -107,6 +107,7 @@ lasso_model = train(x = train[, -c("Item_Identifier",
                     trControl = control,
                     tuneGrid = Grid_la_reg
 )
+
 print(lasso_model)
 
 # mean validation score
